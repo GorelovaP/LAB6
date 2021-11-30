@@ -1,0 +1,72 @@
+img{
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+header{
+    text-align: center;
+    background: #f6b251;
+}
+body{
+    background:url("../img/kk.jpg") ;
+}
+h3{
+    color: #f3670a;
+}
+.container{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.78);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.container > div {
+    width: 80%;
+}
+.container>div>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#idNew{
+    font-family: "Berlin Sans FB Demi", serif;
+    color: #6d0909;
+    text-decoration: underline;
+}
+.class1,.class2,.class3,.class4,.class5,.class6{
+    position: relative;
+}
+
+.none{
+    display: none;
+}
+.color{
+    color: green;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#btn1, #btn2{
+    margin: 10px;
+    height: 70px;
+    width: 250px;
+    background: #f69d3e;
+    border: solid 2px #ee7428;
+}
+#btn1:hover, #btn2:hover{
+    background: #f5b443;
+}
+table{
+    border: 2px solid black;
+    margin: 10px;
+}
+tr, td{
+    position: relative;
+    border: 1px solid black;
+}
